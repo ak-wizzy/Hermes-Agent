@@ -1,0 +1,13 @@
+
+.env
+
+*.pem
+*.key
+secrets/
+data/
+logs/
+.hermes/
+
+.DS_Store
+.idea/
+.vscode/

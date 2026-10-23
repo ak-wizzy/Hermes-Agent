@@ -4,7 +4,6 @@ services:
     image: akwizzy/pilot-repo:hermes-agent
     container_name: hermes-agent
     restart: unless-stopped
-    init: true
 
     command: ["gateway", "run"]
 

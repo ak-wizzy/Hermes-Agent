@@ -2,7 +2,7 @@
 services:
   hermes:
     image: akwizzy/pilot-repo:hermes-agent
-    container_name: hermes
+    container_name: hermes-agent
     restart: unless-stopped
     init: true
 

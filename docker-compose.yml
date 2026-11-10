@@ -32,6 +32,7 @@ services:
     volumes:
       - hermes-data:/opt/data
       - /var/run/docker.sock:/var/run/docker.sock
+      - /opt/data/obsidian-vault:/obsidian-vault:rw
 
     networks:
       - pilot-network
